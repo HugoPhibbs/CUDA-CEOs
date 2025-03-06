@@ -1,0 +1,6 @@
+[submodule "CUDA-CEOs-py"]
+	path = CUDA-CEOs-py
+	url = git@github.com:HugoPhibbs/CUDA-CEOs-py.git
+[submodule "CUDA-CEOs-CPP"]
+	path = CUDA-CEOs-CPP
+	url = git@github.com:HugoPhibbs/CUDA-CEOs-CPP.git
