@@ -1,0 +1,11 @@
+{
+  "dockerFile": "Dockerfile",
+  "runArgs": ["--gpus", "all", "--runtime=nvidia"],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "workspaceFolder": "/workspaceFolder/CUDA-CEOs",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/workspaceFolder/CUDA-CEOs,type=bind"
+  ]}
+}
