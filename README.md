@@ -6,7 +6,6 @@
 ## Running
 
 ### Docker (preferred)
-- To ensure a consistent development and run environment, we use Docker.
 
 #### Prerequisites
 - Docker
