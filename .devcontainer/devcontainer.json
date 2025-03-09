@@ -4,8 +4,12 @@
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
-  "workspaceFolder": "/workspaceFolder/CUDA-CEOs",
-  "mounts": [
-    "source=${localWorkspaceFolder},target=/workspaceFolder/CUDA-CEOs,type=bind"
-  ]}
+//  workspaceMount: "source=${localWorkspaceFolder},target=/workspaceFolder,type=bind,consistency=cached",
+//  "workspaceFolder": "/workspace/CUDA-CEOs",
+  //  "workspaceFolder": "/workspaceFolder/CUDA-CEOs",
+//  "mounts": [
+//    "source=${localWorkspaceFolder},target=/workspaceFolder/CUDA-CEOs,type=bind",
+//    "source=${env:USERPROFILE}\\.ssh,target=/root/.ssh,type=bind"
+//  ],
+//  "postCreateCommand": "/bin/bash /workspaceFolder/CUDA-CEOs/setup.sh"
 }
