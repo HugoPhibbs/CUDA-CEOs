@@ -1,15 +1,19 @@
 {
   "dockerFile": "Dockerfile",
-  "runArgs": ["--gpus", "all", "--runtime=nvidia"],
+  "runArgs": [
+    "--gpus",
+    "all",
+    "--runtime=nvidia"
+  ],
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
-//  workspaceMount: "source=${localWorkspaceFolder},target=/workspaceFolder,type=bind,consistency=cached",
-//  "workspaceFolder": "/workspace/CUDA-CEOs",
-  //  "workspaceFolder": "/workspaceFolder/CUDA-CEOs",
-//  "mounts": [
-//    "source=${localWorkspaceFolder},target=/workspaceFolder/CUDA-CEOs,type=bind",
-//    "source=${env:USERPROFILE}\\.ssh,target=/root/.ssh,type=bind"
-//  ],
-//  "postCreateCommand": "/bin/bash /workspaceFolder/CUDA-CEOs/setup.sh"
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools-extension-pack",
+        "formulahendry.code-runner"
+      ]
+    }
+  }
 }
