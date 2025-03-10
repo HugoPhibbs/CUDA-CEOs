@@ -15,5 +15,6 @@
         "formulahendry.code-runner"
       ]
     }
-  }
+  },
+  "postCreateCommand": "chmod +x .devcontainer/setup-env.sh && ./.devcontainer/setup-env.sh" // Can't figure a nice way to put this in docker
 }
